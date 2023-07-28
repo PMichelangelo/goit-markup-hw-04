@@ -39,6 +39,11 @@ ul {
   margin: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration: none;
 }
@@ -166,7 +171,15 @@ ul {
 
 /**Section_1**/
 .welcome_section {
-  background-color: #2e2f42;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 188px 0;
 }
 
@@ -227,6 +240,12 @@ ul {
   width: calc((100% - 72px) / 4);
 }
 
+.svg-container {
+  justify-content: center;
+  background-color: #f4f4fd;
+  padding: 24px 0;
+}
+
 .section_two_title {
   color: #2e2f42;
   font-weight: 500;
@@ -234,7 +253,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 0;
+  margin-top: 8px;
 }
 
 .section_two_text {
@@ -325,6 +344,7 @@ ul {
   color: #434455;
   margin: 0;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .section_four_list {
@@ -336,6 +356,43 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.smi-members-ul {
+  gap: 24px;
+  justify-content: center;
+}
+
+.smi-members-li {
+  /* width: calc((100% - 72px) * 4); */
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-logo-color);
+  border-radius: 50px;
+}
+
+.smi-members {
+  fill: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**Section-customers**/
+
+.customers-div {
+}
+
+.customers-title {
+  padding-top: 120px;
+  padding-bottom: 73px;
+}
+
+.customers-ul {
+  justify-content: center;
+}
+
 /**Footer**/
 .footer {
   background-color: var(--footer-background-color);
@@ -343,7 +400,19 @@ ul {
 }
 
 .footer-div {
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.footer-sm-div {
+  padding-left: 120px;
+}
+
+.footer-sm-title {
+  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: var(--primary-white-color);
 }
 
 .footer-logo {
