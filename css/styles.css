@@ -164,7 +164,7 @@ button {
   background-color: #4d5ae5;
   border-radius: 2px;
   opacity: 1;
-  transition: opacity 250;
+  transition: opacity 250s;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
