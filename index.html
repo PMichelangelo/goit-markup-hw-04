@@ -50,7 +50,7 @@
     <section class="welcome_section container">
       <div class="div-hero container">
         <h1 class="welcome_title">Effective Solutions for Your Business</h1>
-        <button type="button" class="welcome_section_button">
+        <button type="button" class="welcome_section_button" data-modal-open>
           Order Service
         </button>
       </div>
@@ -399,9 +399,16 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop">
-    <div class="modal"></div>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close-btn" data-modal-close>
+        <svg style="width: 8px; height: 8px;">
+          <use href="/images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
   </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
