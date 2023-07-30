@@ -203,6 +203,7 @@ button {
 
 /**Section_1**/
 .hero_section {
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -273,10 +274,12 @@ button {
 }
 
 .svg-container {
+  align-items: center;
   justify-content: center;
   background-color: #f4f4fd;
   padding: 24px 0;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .features_title {
