@@ -201,7 +201,7 @@ button {
 /**Main**/
 
 /**Section_1**/
-.welcome_section {
+.hero_section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -220,7 +220,7 @@ button {
   flex-direction: column;
 }
 
-.welcome_title {
+.hero_title {
   max-width: 496px;
   text-align: center;
   color: white;
@@ -231,7 +231,7 @@ button {
   margin-bottom: 72px;
 }
 
-.welcome_section_button {
+.hero_section_button {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -250,25 +250,25 @@ button {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.welcome_section_button:hover {
+.hero_section_button:hover {
   background-color: #404bbf;
 }
-.welcome_section_button:focus {
+.hero_section_button:focus {
   background-color: #404bbf;
 }
 
 /**Section_2**/
 
-.section_two {
+.features {
   padding: 120px 0;
 }
 
-.section_two_ul {
+.features_ul {
   display: flex;
   gap: 24px;
 }
 
-.section_two_li {
+.features_li {
   width: calc((100% - 72px) / 4);
 }
 
@@ -279,7 +279,7 @@ button {
   border-radius: 4px;
 }
 
-.section_two_title {
+.features_title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -289,7 +289,7 @@ button {
   margin-top: 8px;
 }
 
-.section_two_text {
+.features_text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -328,16 +328,16 @@ button {
 }
 
 /**Section_4**/
-.section_four {
+.team-members {
   background: #f4f4fd;
   padding: 120px 0;
 }
 
-.section_four-div {
+.team-members-div {
   flex-direction: column;
 }
 
-.section_four_main_title {
+.team-members_main_title {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -348,7 +348,7 @@ button {
   margin-bottom: 72px;
 }
 
-.section-four-ul {
+.team-members-list {
   display: flex;
   gap: 24px;
   margin: 0;
@@ -359,7 +359,7 @@ button {
   padding: 32px 0;
 }
 
-.section_four_member {
+.team-members-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -370,7 +370,7 @@ button {
   margin-top: 0;
 }
 
-.section_four_text {
+.team-members-possition {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -380,7 +380,7 @@ button {
   margin-bottom: 8px;
 }
 
-.section_four_list {
+.team-members-item {
   background-color: var(--primary-white-color);
   width: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
