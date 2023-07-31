@@ -480,12 +480,12 @@ button {
 }
 
 .customers-a:hover {
-  border: 1px #404bbf solid;
+  border-color: #404bbf;
   color: #404bbf;
 }
 
 .customers-a:focus {
-  border: #404bbf;
+  border-color: #404bbf;
   color: #404bbf;
 }
 
@@ -552,7 +552,7 @@ button {
 }
 
 .footer-sm-icons {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -686,7 +686,7 @@ button {
 }
 
 .potrfolio-overlay-wrap {
-  position: absolute;
+  position: relative;
 }
 
 .overlay {
